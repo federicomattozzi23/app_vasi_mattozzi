@@ -21,23 +21,27 @@ body {
 #hero {
   height: 380px;
   position: relative;
-  background: url('immagini/sanpietro1.jpg') center/cover;
+  background: url("sanpietro1.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* overlay migliorato */
 .hero-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.7));
+  z-index: 1;
 }
 
+/* testo sopra immagine */
 .hero-content {
   position: relative;
   text-align: center;
   color: white;
+  z-index: 2;
   animation: fadeUp 1s ease;
 }
 
@@ -182,7 +186,7 @@ body {
   background: #f0fdf9;
 }
 
-/* ===== AUDIO PLAYER PRO ===== */
+/* ===== AUDIO PLAYER ===== */
 .audio-player {
   margin-top: 18px;
   padding: 18px;
@@ -216,7 +220,7 @@ body {
   background: white;
 }
 
-/* ===== CONTROLLI PRO ===== */
+/* ===== CONTROLLI ===== */
 .controls {
   display: none;
   position: fixed;
@@ -225,11 +229,8 @@ body {
   transform: translateX(-50%);
   padding: 12px 20px;
   border-radius: 30px;
-
   background: rgba(255,255,255,0.85);
   backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
