@@ -1,0 +1,125 @@
+{
+  "itinerari": [
+    {
+      "id": "passeggiata_vasi",
+      "nome": "Il Gran Tour di Roma",
+      "sottotitolo": "La Città Eterna attraverso gli occhi di Giuseppe Vasi",
+      "personaggio": {
+        "nome": "Giuseppe Vasi",
+        "anni": "1710-1782",
+        "professione": "Incisore",
+        "nazionalita": "Italiana",
+        "biografia_breve": "Giuseppe Vasi è stato uno dei principali incisori della Roma del Settecento. Attraverso le sue opere ha documentato monumenti, piazze e scene di vita quotidiana."
+      },
+      "tema": "Potere, memoria, continuità, modernità",
+      "categoria": "Arte e Cultura",
+      "durata_totale_ore": 6,
+      "difficolta": "facile",
+      "distanza_totale_km": 3.8,
+      "periodo_consigliato": "Primavera/Autunno",
+      "descrizione": "Roma come città in trasformazione attraverso lo sguardo di Vasi.",
+      "tappe": [
+        {
+          "numero": 1,
+          "nome": "Piazza San Pietro",
+          "audio": "audio/tappa1.mp3",
+          "coordinate": [41.9022, 12.4570],
+          "durata_visita_min": 45,
+          "descrizione_breve": "Piazza monumentale della Città del Vaticano progettata da Bernini.",
+          "descrizione_estesa": "La piazza berniniana costituisce un caso esemplare di regia spaziale barocca, in cui l’impianto ellittico e il colonnato dorico generano un dispositivo prospettico capace di organizzare il flusso dei fedeli e di costruire una gerarchia visiva centrata sulla basilica. L’intervento si inserisce nel più ampio programma di monumentalizzazione della Roma pontificia.",
+          "commento_vasi": "«La gran piazza si dispiega come teatro ordinato, dove l’occhio è condotto per via di colonne verso il tempio maggiore» — In una logica pienamente vedutista, Vasi enfatizza la chiarezza prospettica e la funzione rappresentativa dello spazio, traducendo l’ordine urbano in immagine leggibile e didattica.",
+          "punti_interesse": [
+            {
+              "nome": "Colonnato di Bernini",
+              "descrizione": "Struttura ellittica composta da 284 colonne che simboleggia l’abbraccio della Chiesa."
+            },
+            {
+              "nome": "Obelisco Vaticano",
+              "descrizione": "Obelisco egizio collocato al centro della piazza, simbolo di continuità tra culture."
+            },
+            {
+              "nome": "Basilica di San Pietro",
+              "descrizione": "La più importante chiesa della cristianità, centro spirituale e artistico."
+            }
+          ],
+          "indicazioni_arrivo": "Metro A, fermata Ottaviano, 10 minuti a piedi."
+        },
+        {
+          "numero": 2,
+          "nome": "Foro Romano",
+          "audio": "audio/tappa2.mp3",
+          "coordinate": [41.8925, 12.4853],
+          "durata_visita_min": 30,
+          "descrizione_breve": "Centro politico e religioso dell’antica Roma.",
+          "descrizione_estesa": "Il Foro Romano si configura come paesaggio archeologico stratificato, in cui le emergenze monumentali — templi, basiliche, archi trionfali — testimoniano la complessa evoluzione della città dall’età repubblicana a quella imperiale. La lettura dello spazio implica una continua sovrapposizione tra rovina e ricostruzione interpretativa.",
+          "commento_vasi": "«Le antichità sparse nel Foro rendono visibile la maestà trascorsa della città» — Vasi adotta una visione topografica e documentaria, dove la rovina non è solo frammento ma segno di continuità storica, integrata nella percezione della Roma settecentesca.",
+          "punti_interesse": [
+            {
+              "nome": "Tempio di Saturno",
+              "descrizione": "Uno dei templi più antichi, simbolo della ricchezza dello Stato romano."
+            },
+            {
+              "nome": "Arco di Settimio Severo",
+              "descrizione": "Arco trionfale dedicato alle vittorie militari dell’imperatore."
+            },
+            {
+              "nome": "Via Sacra",
+              "descrizione": "Strada principale del Foro, percorsa durante le cerimonie trionfali."
+            }
+          ],
+          "indicazioni_arrivo": "Prendere Bus 64 → Piazza Venezia → 10 minuti a piedi."
+        },
+        {
+          "numero": 3,
+          "nome": "Pantheon",
+          "audio": "audio/tappa3.mp3",
+          "coordinate": [41.8986, 12.4769],
+          "durata_visita_min": 60,
+          "descrizione_breve": "Tempio romano perfettamente conservato.",
+          "descrizione_estesa": "Il Pantheon rappresenta uno degli esiti più alti dell’ingegneria romana, in cui la perfetta integrazione tra cilindro e cupola emisferica definisce uno spazio unitario e simbolicamente carico. L’oculo centrale funge da dispositivo luminoso e cosmologico, stabilendo una relazione diretta tra architettura e cielo.",
+          "commento_vasi": "«Il tempio rotondo mostra una perfetta armonia di proporzioni e di luce» — Vasi interpreta l’edificio come paradigma di equilibrio formale, sottolineando la dimensione geometrica e la continuità d’uso che ne garantisce la conservazione.",
+          "punti_interesse": [
+            {
+              "nome": "Cupola",
+              "descrizione": "La più grande cupola in calcestruzzo non armato al mondo."
+            },
+            {
+              "nome": "Oculo",
+              "descrizione": "Apertura centrale che illumina l’interno creando effetti scenografici."
+            },
+            {
+              "nome": "Altari e tombe",
+              "descrizione": "Contiene le tombe di importanti personaggi come Raffaello."
+            }
+          ],
+          "indicazioni_arrivo": "5 minuti a piedi da Piazza Venezia."
+        },
+        {
+          "numero": 4,
+          "nome": "Fontana di Trevi",
+          "audio": "audio/tappa4.mp3",
+          "coordinate": [41.9009, 12.4833],
+          "durata_visita_min": 45,
+          "descrizione_breve": "Fontana barocca monumentale.",
+          "descrizione_estesa": "La Fontana di Trevi costituisce un esempio emblematico di integrazione tra architettura e scultura nel contesto urbano barocco. Il prospetto di Palazzo Poli diventa quinta scenica per una composizione dinamica, in cui l’acqua svolge un ruolo attivo nella costruzione dell’immagine.",
+          "commento_vasi": "«La fontana si presenta come spettacolo d’acque e pietre, ove l’arte supera la natura» — Nella visione di Vasi, l’opera è letta come dispositivo teatrale urbano, capace di trasformare lo spazio pubblico in esperienza estetica condivisa.",
+          "punti_interesse": [
+            {
+              "nome": "Statua di Oceano",
+              "descrizione": "Figura centrale che domina la composizione scenica."
+            },
+            {
+              "nome": "Cavalli marini",
+              "descrizione": "Simbolizzano il controllo dell’uomo sulla natura."
+            },
+            {
+              "nome": "Tradizione della moneta",
+              "descrizione": "Lancio della moneta come rito simbolico di ritorno a Roma."
+            }
+          ],
+          "indicazioni_arrivo": "8 minuti a piedi dal Pantheon."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', system-ui, sans-serif;
+  background: linear-gradient(to bottom, #f4f7fb, #eef2f7);
+  color: #1e293b;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* ===== HERO ===== */
+#hero {
+  height: 380px;
+  position: relative;
+  background: url('immagini/sanpietro1.jpg') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.7));
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: white;
+  animation: fadeUp 1s ease;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* ===== BUTTON ===== */
+.start-btn {
+  margin-top: 25px;
+  padding: 16px 28px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #1abc9c, #16a085);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* ===== PROGRESS BAR ===== */
+#progress-bar {
+  height: 6px;
+  background: #e2e8f0;
+}
+
+#progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #1abc9c, #16a085);
+  transition: 0.4s;
+}
+
+/* ===== MAP ===== */
+#map {
+  height: 320px;
+  margin: 30px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ===== CARD ===== */
+#info, .tappa {
+  background: white;
+  margin: 25px auto;
+  padding: 26px;
+  border-radius: 20px;
+  max-width: 900px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+/* ===== TAPPE ===== */
+.tappa {
+  display: none;
+  animation: fadeUp 0.4s ease;
+}
+
+.tappa.active {
+  display: block;
+  border: 2px solid #1abc9c;
+  transform: scale(1.01);
+}
+
+/* ===== TESTI ===== */
+.tappa h3 {
+  font-size: 22px;
+}
+
+.tappa p {
+  line-height: 1.7;
+}
+
+/* ===== SLIDER ===== */
+.slider {
+  width: 100%;
+  height: 340px;
+  margin: 15px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+/* ===== DESCRIZIONE ===== */
+.descrizione {
+  margin-top: 15px;
+  padding: 18px;
+  background: #f1f5f9;
+  border-radius: 14px;
+}
+
+/* ===== COMMENTO ===== */
+.commento-vasi {
+  margin-top: 15px;
+  padding: 18px;
+  background: #e8f6f3;
+  border-left: 5px solid #1abc9c;
+  border-radius: 14px;
+  font-style: italic;
+}
+
+/* ===== POI ===== */
+.poi {
+  margin-bottom: 12px;
+  padding: 14px;
+  background: white;
+  border-left: 4px solid #1abc9c;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+
+.poi:hover {
+  transform: translateX(5px);
+  background: #f0fdf9;
+}
+
+/* ===== AUDIO PLAYER PRO ===== */
+.audio-player {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #1abc9c, #16a085);
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.audio-player button {
+  background: white;
+  color: #16a085;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.audio-bar {
+  height: 6px;
+  background: rgba(255,255,255,0.3);
+  margin-top: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.audio-progress {
+  height: 100%;
+  width: 0%;
+  background: white;
+}
+
+/* ===== CONTROLLI PRO ===== */
+.controls {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 20px;
+  border-radius: 30px;
+
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.controls button {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  margin: 0 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.controls button:hover {
+  background: #1abc9c;
+  transform: scale(1.05);
+}
+
+#progress {
+  font-weight: 600;
+}
+
+/* ===== SPAZIO ===== */
+#tappe {
+  padding-bottom: 200px;
+}
+
+/* ===== ANIMAZIONE ===== */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

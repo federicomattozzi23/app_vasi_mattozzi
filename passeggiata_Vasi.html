@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Gran Tour di Roma</title>
+
+  <!-- FONT PRO -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>Il Gran Tour di Roma</h1>
+    <p>La Città Eterna attraverso gli occhi di Giuseppe Vasi</p>
+
+    <button class="start-btn" onclick="startTourScroll()">
+      Inizia il Tour
+    </button>
+  </div>
+</section>
+
+<!-- PROGRESS BAR -->
+<div id="progress-bar">
+  <div id="progress-fill"></div>
+</div>
+
+<!-- CONTENUTO PRINCIPALE -->
+<main class="container">
+
+  <!-- MAPPA -->
+  <section id="map"></section>
+
+  <!-- INFO PERSONAGGIO -->
+  <section id="info"></section>
+
+  <!-- TAPPE -->
+  <section id="tappe"></section>
+
+</main>
+
+<!-- CONTROLLI -->
+<div class="controls">
+  <button onclick="prevStep()">⬅</button>
+  <span id="progress">Tappa 0</span>
+  <button onclick="nextStep()">➡</button>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
