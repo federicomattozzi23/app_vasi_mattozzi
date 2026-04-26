@@ -9,7 +9,7 @@ let map = L.map('map').setView([41.9028, 12.4964], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-/* ===== FETCH CORRETTO ===== */
+/* ===== FETCH ===== */
 fetch('data.json')
   .then(res => res.json())
   .then(data => {
@@ -43,15 +43,15 @@ fetch('data.json')
   })
   .catch(err => console.error("Errore JSON:", err));
 
-/* ===== CREAZIONE TAPPE ===== */
+/* ===== TAPPE ===== */
 function createSteps() {
   let container = document.getElementById("tappe");
 
   let immagini = {
-    "Piazza San Pietro": ["immagini/sanpietro1.jpg","immagini/sanpietro2.jpg"],
-    "Foro Romano": ["immagini/foro1.jpg","immagini/foro2.jpg"],
-    "Pantheon": ["immagini/pantheon1.jpg","immagini/pantheon2.jpg"],
-    "Fontana di Trevi": ["immagini/trevi1.jpg","immagini/trevi2.jpg"]
+    "Piazza San Pietro": ["sanpietro1.jpg","sanpietro2.jpg"],
+    "Foro Romano": ["foro1.jpg","foro2.jpg"],
+    "Pantheon": ["pantheon1.jpg","pantheon2.jpg"],
+    "Fontana di Trevi": ["trevi1.jpg","trevi2.jpg"]
   };
 
   stepsData.forEach((step, i) => {
@@ -75,7 +75,6 @@ function createSteps() {
     div.innerHTML = `
       <h3>${step.numero}. ${step.nome}</h3>
 
-      <!-- AUDIO -->
       <div class="audio-player">
         <button onclick="toggleAudio(${i}, this)">▶️ Play</button>
         <div class="audio-bar">
