@@ -21,22 +21,28 @@ body {
 #hero {
   height: 380px;
   position: relative;
-  background: url("sanpietro1.jpg") center/cover no-repeat;
+
+  /* SFONDO IMMAGINE */
+  background-image: url("sanpietro1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* overlay migliorato */
+/* OVERLAY PIÙ LEGGERO */
 .hero-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.7));
+  background: rgba(0,0,0,0.3); /* meno scuro */
   z-index: 1;
 }
 
-/* testo sopra immagine */
+/* TESTO SOPRA */
 .hero-content {
   position: relative;
   text-align: center;
@@ -54,7 +60,7 @@ body {
 .hero-content p {
   margin-top: 10px;
   font-size: 18px;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 /* ===== BUTTON ===== */
