@@ -22,7 +22,7 @@
         {
           "numero": 1,
           "nome": "Piazza San Pietro",
-          "audio": "audio/tappa1.mp3",
+          "audio": "tappa1.mp3",
           "coordinate": [41.9022, 12.4570],
           "durata_visita_min": 45,
           "descrizione_breve": "Piazza monumentale della Città del Vaticano progettata da Bernini.",
@@ -47,7 +47,7 @@
         {
           "numero": 2,
           "nome": "Foro Romano",
-          "audio": "audio/tappa2.mp3",
+          "audio": "tappa2.mp3",
           "coordinate": [41.8925, 12.4853],
           "durata_visita_min": 30,
           "descrizione_breve": "Centro politico e religioso dell’antica Roma.",
@@ -72,7 +72,7 @@
         {
           "numero": 3,
           "nome": "Pantheon",
-          "audio": "audio/tappa3.mp3",
+          "audio": "tappa3.mp3",
           "coordinate": [41.8986, 12.4769],
           "durata_visita_min": 60,
           "descrizione_breve": "Tempio romano perfettamente conservato.",
@@ -97,7 +97,7 @@
         {
           "numero": 4,
           "nome": "Fontana di Trevi",
-          "audio": "audio/tappa4.mp3",
+          "audio": "tappa4.mp3",
           "coordinate": [41.9009, 12.4833],
           "durata_visita_min": 45,
           "descrizione_breve": "Fontana barocca monumentale.",
