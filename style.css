@@ -1,0 +1,554 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+
+  font-family: Georgia, serif;
+
+  background:#f5efe6;
+
+  color:#2f1b12;
+}
+
+/* NAVBAR */
+
+.navbar{
+
+  height:70px;
+
+  background:linear-gradient(
+    90deg,
+    #2f1b12,
+    #5b3a29
+  );
+
+  color:#f4d58d;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  padding:0 40px;
+
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo{
+
+  font-size:30px;
+
+  font-weight:bold;
+}
+
+.home-btn{
+
+  background:#6f4e37;
+
+  color:white;
+
+  border:none;
+
+  padding:12px 20px;
+
+  border-radius:8px;
+
+  cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+
+  text-align:center;
+
+  padding:60px 20px;
+}
+
+.hero h1{
+
+  font-size:60px;
+
+  margin-bottom:20px;
+}
+
+.hero p{
+
+  font-size:22px;
+
+  color:#5c4033;
+}
+
+/* LAYOUT */
+
+.layout{
+
+  display:flex;
+
+  gap:30px;
+
+  padding:30px;
+}
+
+/* SIDEBAR */
+
+.timeline{
+
+  width:280px;
+
+  min-height:700px;
+
+  background:linear-gradient(
+    180deg,
+    #2f1b12,
+    #5b3a29
+  );
+
+  padding:30px;
+
+  border-radius:12px;
+
+  color:#f4d58d;
+
+  position:sticky;
+
+  top:20px;
+}
+
+.timeline h2{
+
+  margin-bottom:30px;
+
+  font-size:30px;
+}
+
+.timeline-item{
+
+  padding:15px;
+
+  border-left:3px solid #f4d58d;
+
+  margin-bottom:20px;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.timeline-item:hover{
+
+  background:rgba(255,255,255,0.1);
+}
+
+/* CONTENT */
+
+.content{
+
+  flex:1;
+}
+
+/* PERSONAGGIO */
+
+.personaggio-card{
+
+  display:flex;
+
+  gap:30px;
+
+  align-items:center;
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:15px;
+
+  margin-bottom:40px;
+
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.personaggio-card img{
+
+  width:220px;
+
+  height:220px;
+
+  object-fit:cover;
+
+  border-radius:15px;
+}
+
+.personaggio-card h2{
+
+  font-size:40px;
+
+  margin-bottom:20px;
+}
+
+.personaggio-card p{
+
+  line-height:1.7;
+}
+
+/* MAPPA */
+
+#map{
+
+  height:500px;
+
+  width:100%;
+
+  border-radius:15px;
+
+  overflow:hidden;
+
+  margin-bottom:40px;
+}
+
+/* TAPPE */
+
+.tappa{
+
+  background:white;
+
+  padding:30px;
+
+  margin-bottom:40px;
+
+  border-radius:15px;
+
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tappa h2{
+
+  font-size:38px;
+
+  margin-bottom:20px;
+}
+
+.tappa img{
+
+  width:100%;
+
+  height:400px;
+
+  object-fit:cover;
+
+  border-radius:10px;
+
+  margin:20px 0;
+}
+
+.meta{
+
+  margin-top:20px;
+
+  padding:15px;
+
+  background:#f5efe6;
+
+  border-left:5px solid #6f4e37;
+
+  border-radius:8px;
+}
+
+blockquote{
+
+  margin-top:20px;
+
+  font-style:italic;
+
+  padding-left:20px;
+
+  border-left:4px solid #6f4e37;
+
+  color:#5c4033;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1000px){
+
+  .layout{
+
+    flex-direction:column;
+  }
+
+  .timeline{
+
+    width:100%;
+
+    min-height:auto;
+
+    position:relative;
+  }
+
+  .personaggio-card{
+
+    flex-direction:column;
+  }
+
+  .hero h1{
+
+    font-size:40px;
+  }
+}
+/* SLIDER */
+
+.slider{
+
+position:relative;
+
+width:100%;
+
+height:400px;
+
+overflow:hidden;
+
+border-radius:12px;
+
+margin-top:20px;
+}
+
+.slide{
+
+position:absolute;
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
+opacity:0;
+
+transition:opacity 1s ease;
+}
+
+.slide.active{
+
+opacity:1;
+}
+
+/* AUDIO */
+
+.audio-player{
+
+margin-top:20px;
+
+margin-bottom:20px;
+}
+
+.audio-btn{
+
+background:#6f4e37;
+
+color:white;
+
+border:none;
+
+padding:12px 20px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+margin-bottom:10px;
+}
+
+.audio-bar{
+
+width:100%;
+
+height:10px;
+
+background:#ddd;
+
+border-radius:10px;
+
+overflow:hidden;
+}
+
+.audio-progress{
+
+width:0%;
+
+height:100%;
+
+background:#6f4e37;
+
+transition:0.2s;
+}
+/* NUOVE AGGIUNTE STILISTICHE PER DATI COMPLETI */
+
+.itinerario-info-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.itinerario-info-card h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #2f1b12;
+  border-bottom: 2px solid #f5efe6;
+  padding-bottom: 10px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  background: #fdfbf7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.note-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff9f0;
+  border-radius: 8px;
+  border-left: 4px solid #f4d58d;
+}
+
+.note-box p {
+  margin-bottom: 8px;
+}
+
+.personaggio-meta {
+  font-style: italic;
+  color: #6f4e37;
+  margin-bottom: 10px;
+}
+
+.opere-box {
+  margin-top: 15px;
+  background: #fbf9f5;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.opere-box ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.orario-tag {
+  background: #e6dfd5;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.didascalia-incisione {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.testi-tappa {
+  margin-top: 15px;
+  background: #fcfbf9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.testi-tappa p {
+  margin-bottom: 8px;
+}
+
+.servizi-tappa {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px dashed #ddd;
+  padding-top: 10px;
+}
+
+/* ESPERIENZA CULTURALE CARD INTERNA */
+.esperienza-culturale-box {
+  margin-top: 30px;
+  background: #f4ece1;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px dashed #6f4e37;
+}
+
+.esperienza-culturale-box h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #2f1b12;
+}
+
+.exp-sezione {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.exp-sezione h4 {
+  color: #6f4e37;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.exp-links {
+  margin-top: 10px;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.btn-link.spot { background: #1DB954; }
+.btn-link.yt { background: #FF0000; }
+
+/* CONTENITORI FINALI DELLE LISTE */
+.liste-finali-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.lista-box {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.lista-box h3 {
+  margin-bottom: 15px;
+  color: #2f1b12;
+}
+
+.lista-box ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.sconsigliato-box {
+  border-top: 4px solid #FF0000;
+}

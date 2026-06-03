@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Gran Tour di Roma</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">🏛 Passeggiate Romane</div>
+    <nav>
+      <button class="home-btn">Home</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 id="titolo"></h1>
+    <p id="sottotitolo"></p>
+  </section>
+
+  <main class="layout">
+    <aside class="timeline">
+      <h2>Timeline Itinerario</h2>
+      <div id="timeline-list"></div>
+    </aside>
+
+    <section class="content">
+      
+      <div class="itinerario-info-card">
+        <h2>Dettagli dell'Itinerario</h2>
+        <p id="itinerario-descrizione"></p>
+        <div class="info-grid">
+          <div><b>Tema:</b> <span id="itinerario-tema"></span></div>
+          <div><b>Categoria:</b> <span id="itinerario-categoria"></span></div>
+          <div><b>Durata:</b> <span id="itinerario-durata"></span> ore</div>
+          <div><b>Distanza:</b> <span id="itinerario-distanza"></span> km</div>
+          <div><b>Difficoltà:</b> <span id="itinerario-difficolta"></span></div>
+          <div><b>Costo:</b> <span id="itinerario-costo"></span></div>
+          <div><b>Periodo Consigliato:</b> <span id="itinerario-periodo"></span></div>
+          <div><b>Mesi Migliori:</b> <span id="itinerario-mesi"></span></div>
+        </div>
+        <div class="note-box">
+          <p>ℹ️ <b>Note Logistiche:</b> <span id="itinerario-logistica"></span></p>
+          <p>♿ <b>Accessibilità:</b> <span id="itinerario-accessibilita"></span></p>
+        </div>
+      </div>
+
+      <div class="personaggio-card">
+        <img id="personaggio-img" src="" alt="Giuseppe Vasi">
+        <div>
+          <h2 id="personaggio-nome"></h2>
+          <p class="personaggio-meta">
+            <span id="personaggio-anni"></span> | 
+            <span id="personaggio-professione"></span> (<span id="personaggio-nazionalita"></span>)
+          </p>
+          <p id="personaggio-bio"></p>
+          <div class="opere-box">
+            <b>Opere Correlate:</b>
+            <ul id="personaggio-opere"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="map"></div>
+
+      <div id="tappe-container"></div>
+
+      <div class="liste-finali-container">
+        <div class="lista-box">
+          <h3>💡 Consigli Pratici</h3>
+          <ul id="lista-consigli"></ul>
+        </div>
+        <div class="lista-box">
+          <h3>🎒 Cosa Portare</h3>
+          <ul id="lista-oggetti"></ul>
+        </div>
+        <div class="lista-box sconsigliato-box">
+          <h3>⚠️ Periodi Sconsigliati</h3>
+          <ul id="lista-sconsigliato"></ul>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

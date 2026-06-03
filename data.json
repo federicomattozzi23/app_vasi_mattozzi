@@ -1,0 +1,343 @@
+{
+"itinerari": [
+{
+"id": "vasi_roma",
+"nome": "Il Gran Tour di Roma",
+"sottotitolo": "La Città Eterna attraverso gli occhi di Giuseppe Vasi",
+
+
+  "personaggio": {
+    "nome": "Giuseppe Vasi",
+    "anni": "1710-1782",
+    "professione": "Incisore, Vedutista e Cartografo",
+    "nazionalita": "Italiana",
+
+    "biografia_breve": "Giuseppe Vasi è stato uno dei principali incisori della Roma del Settecento. Attraverso le sue vedute urbane documentò monumenti, piazze e scene quotidiane della città eterna con precisione topografica e sensibilità narrativa, trasformando Roma in un atlante visivo per i viaggiatori del Grand Tour.",
+
+    "immagine": "assets/personaggi/vasi.jpg",
+
+    "opere_correlate": [
+      "Vedute di Roma",
+      "Delle magnificenze di Roma antica e moderna",
+      "Itinerario istruttivo di Roma"
+    ]
+  },
+
+  "tema": "Vedutismo, memoria urbana e rappresentazione della città",
+
+  "categoria": "Arte e Cultura",
+
+  "durata_totale_ore": 5,
+
+  "difficolta": "facile",
+
+  "immagine_copertina": "immagini/sanpietro1.jpg",
+
+  "distanza_totale_km": 3.8,
+
+  "periodo_consigliato": "Primavera e Autunno (luce morbida e temperature miti)",
+
+  "stagione_migliore": [
+    "marzo",
+    "aprile",
+    "maggio",
+    "settembre",
+    "ottobre"
+  ],
+
+  "descrizione": "Un itinerario nel cuore di Roma attraverso lo sguardo di Giuseppe Vasi, incisore e vedutista del Settecento. Dalle grandi piazze barocche ai monumenti dell’antichità romana, il percorso ricostruisce la città come spazio di memoria, potere e rappresentazione urbana.",
+
+  "note_logistiche": "Percorso facilmente percorribile a piedi con brevi spostamenti tramite mezzi pubblici. Consigliato iniziare in mattinata per evitare il maggiore affollamento turistico.",
+
+  "accessibilita": "Tutte le tappe sono accessibili tramite mezzi pubblici e percorsi pedonali. Alcune aree del centro storico presentano pavimentazione in sampietrini.",
+
+  "costo_stimato": "Gratuito eccetto eventuali ingressi ai siti archeologici.",
+
+  "tappe": [
+
+    {
+      "numero": 1,
+
+      "poi_id": "san_pietro_vasi",
+
+      "orario_consigliato": "09:00",
+
+      "momento_giornata": "mattina",
+
+      "durata_visita_min": 45,
+
+      "coordinate": [41.9022, 12.4570],
+
+      "nome": "Piazza San Pietro",
+
+      "descrizione_breve": "La grande piazza barocca progettata da Bernini, simbolo della monumentalità papale.",
+
+      "immagine_incisione": "immagini/sanpietro1.jpg",
+
+      "didascalia": "Giuseppe Vasi, Veduta di Piazza San Pietro",
+
+      "audio": "audio/tappa1.mp3",
+
+      "indicazioni_arrivo": "Metro A, fermata Ottaviano, 10 minuti a piedi.",
+
+      "descrizione_estesa": "La piazza berniniana costituisce un esempio monumentale di organizzazione prospettica e teatralità urbana. Il colonnato ellittico accompagna lo sguardo verso la Basilica di San Pietro creando una potente scenografia urbana.",
+
+      "commento_vasi": "«La gran piazza si dispiega come teatro ordinato, dove l’occhio è condotto per via di colonne verso il tempio maggiore.»",
+
+      "esperienza_culturale": {
+
+        "musica": {
+          "movimento": "Largo",
+          "brano_completo": "Le quattro stagioni - Primavera",
+          "compositore": "Antonio Vivaldi",
+          "durata_sec": 600,
+          "tonalita": "Mi maggiore",
+          "organico": "Archi e basso continuo",
+          "anno_composizione": 1725,
+
+          "descrizione_musicale": "La leggerezza delle linee melodiche accompagna la visione ordinata e scenografica della piazza berniniana.",
+
+          "spotify_url": "https://open.spotify.com/",
+
+          "youtube_url": "https://www.youtube.com/",
+
+          "note_ascolto": "Ascoltare osservando il colonnato."
+        },
+
+        "letteratura": {
+          "citazione": "«La gran piazza si dispiega come teatro ordinato.»",
+          "autore": "Giuseppe Vasi",
+          "opera": "Vedute di Roma",
+          "anno": 1750,
+
+          "contesto": "Vasi interpreta Piazza San Pietro come simbolo della Roma pontificia."
+        },
+
+        "atmosfera": {
+
+          "momento": "mattina",
+
+          "luce": "chiara e diffusa",
+
+          "suoni_ambiente": [
+            "campane",
+            "voci dei pellegrini",
+            "passi sul colonnato"
+          ],
+
+          "temperatura_stimata": "20°C",
+
+          "affollamento": "moderato",
+
+          "consiglio_fotografico": "Scattare dal centro dell’obelisco.",
+
+          "emozione_target": "Monumentalità"
+        },
+
+        "arte_visiva": {
+
+          "stile_architettonico": "Barocco",
+
+          "architetti": [
+            "Gian Lorenzo Bernini"
+          ],
+
+          "anno_costruzione": "1656-1667",
+
+          "committente": "Papa Alessandro VII",
+
+          "descrizione": "Piazza ellittica monumentale progettata per accogliere i fedeli."
+        }
+      },
+
+      "storia": "La piazza fu progettata da Bernini come fulcro scenografico della basilica.",
+
+      "curiosita": "Vasi dedicò numerose incisioni a Piazza San Pietro.",
+
+      "metadata": {
+
+        "accessibilita": "Piazza pubblica",
+
+        "orari_standard": "24/7",
+
+        "servizi": [
+          "Metro",
+          "Bar",
+          "Punti informativi"
+        ]
+      }
+    },
+
+    {
+      "numero": 2,
+
+      "poi_id": "foro_romano_vasi",
+
+      "orario_consigliato": "11:00",
+
+      "momento_giornata": "tarda mattina",
+
+      "durata_visita_min": 45,
+
+      "coordinate": [41.8925, 12.4853],
+
+      "nome": "Foro Romano",
+
+      "descrizione_breve": "Il cuore politico e simbolico dell’antica Roma.",
+
+      "immagine_incisione": "immagini/foro1.jpg",
+
+      "didascalia": "Giuseppe Vasi, Veduta del Foro Romano",
+
+      "audio": "audio/tappa2.mp3",
+
+      "indicazioni_arrivo": "Bus 64 → Piazza Venezia → 10 minuti a piedi.",
+
+      "descrizione_estesa": "Il Foro Romano rappresenta il cuore simbolico dell’antica città. Templi, archi e rovine testimoniano la continuità storica tra Roma antica e moderna.",
+
+      "commento_vasi": "«Le antichità sparse nel Foro rendono visibile la maestà trascorsa della città.»",
+
+      "storia": "Nel Settecento molte aree del Foro erano ancora parzialmente interrate.",
+
+      "curiosita": "Le incisioni di Vasi venivano acquistate dai viaggiatori del Grand Tour.",
+
+      "metadata": {
+
+        "accessibilita": "Area esterna visibile gratuitamente",
+
+        "orari_standard": "09:00-Tramonto",
+
+        "servizi": [
+          "Guide",
+          "Punti panoramici"
+        ]
+      }
+    },
+
+    {
+      "numero": 3,
+
+      "poi_id": "pantheon_vasi",
+
+      "orario_consigliato": "13:00",
+
+      "momento_giornata": "mezzogiorno",
+
+      "durata_visita_min": 60,
+
+      "coordinate": [41.8986, 12.4769],
+
+      "nome": "Pantheon",
+
+      "descrizione_breve": "Il tempio romano meglio conservato della città.",
+
+      "immagine_incisione": "immagini/pantheon1.jpg",
+
+      "didascalia": "Giuseppe Vasi, Veduta del Pantheon",
+
+      "audio": "audio/tappa3.mp3",
+
+      "indicazioni_arrivo": "15 minuti a piedi dal Foro Romano.",
+
+      "descrizione_estesa": "Il Pantheon rappresenta uno dei massimi esempi di architettura romana imperiale grazie alla sua cupola perfettamente proporzionata.",
+
+      "commento_vasi": "«Il tempio rotondo mostra una perfetta armonia di proporzioni e di luce.»",
+
+      "storia": "Il Pantheon fu trasformato in chiesa cristiana nel VII secolo.",
+
+      "curiosita": "L’oculo centrale è l’unica fonte di luce naturale.",
+
+      "metadata": {
+
+        "accessibilita": "Accessibile a tutti",
+
+        "orari_standard": "09:00-19:00",
+
+        "servizi": [
+          "Audioguide",
+          "Piazza pedonale"
+        ]
+      }
+    },
+
+    {
+      "numero": 4,
+
+      "poi_id": "trevi_vasi",
+
+      "orario_consigliato": "16:00",
+
+      "momento_giornata": "pomeriggio",
+
+      "durata_visita_min": 45,
+
+      "coordinate": [41.9009, 12.4833],
+
+      "nome": "Fontana di Trevi",
+
+      "descrizione_breve": "Il grande teatro urbano dell’acqua barocca.",
+
+      "immagine_incisione": "immagini/trevi1.jpg",
+
+      "didascalia": "Giuseppe Vasi, Veduta della Fontana di Trevi",
+
+      "audio": "audio/tappa4.mp3",
+
+      "indicazioni_arrivo": "8 minuti a piedi dal Pantheon.",
+
+      "descrizione_estesa": "La Fontana di Trevi è uno dei più celebri esempi di teatralità urbana barocca.",
+
+      "commento_vasi": "«La fontana si presenta come spettacolo d’acque e pietre, ove l’arte supera la natura.»",
+
+      "storia": "La Fontana di Trevi segna il terminale dell’antico Acquedotto Vergine.",
+
+      "curiosita": "La tradizione della moneta prometterebbe il ritorno a Roma.",
+
+      "metadata": {
+
+        "accessibilita": "Piazza pubblica",
+
+        "orari_standard": "24/7",
+
+        "servizi": [
+          "Gelaterie",
+          "Ristoranti",
+          "Souvenir"
+        ]
+      }
+    }
+
+  ],
+
+  "mappa_percorso": {
+
+    "polyline_encoded": "esempio_codice_polyline",
+
+    "colore_percorso": "#c49b66",
+
+    "stile_linea": "solid"
+  },
+
+  "consigli_pratici": [
+    "Portare scarpe comode.",
+    "Utilizzare cuffie per l’audio guida.",
+    "Visitare le tappe nelle prime ore del giorno."
+  ],
+
+  "migliore_periodo_anno": "Primavera e Autunno.",
+
+  "sconsigliato": [
+    "Luglio e Agosto per il caldo intenso."
+  ],
+
+  "cosa_portare": [
+    "Smartphone",
+    "Auricolari",
+    "Borraccia",
+    "Powerbank",
+    "Cappello"
+  ]
+}
+
+]
+}
