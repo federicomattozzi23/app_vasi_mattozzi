@@ -197,6 +197,90 @@
 
       "commento_vasi": "«Le antichità sparse nel Foro rendono visibile la maestà trascorsa della città.»",
 
+      "esperienza_culturale": {
+
+  "musica": {
+
+    "movimento": "Adagio",
+
+    "brano_completo": "Concerto Grosso Op. 6 n. 8",
+
+    "compositore": "Arcangelo Corelli",
+
+    "durata_sec": 420,
+
+    "tonalita": "Sol minore",
+
+    "organico": "Archi e basso continuo",
+
+    "anno_composizione": 1690,
+
+    "descrizione_musicale": "Le sonorità solenni e malinconiche evocano la grandezza perduta dell'antica Roma e accompagnano la contemplazione delle rovine.",
+
+    "spotify_url": "https://open.spotify.com/",
+
+    "youtube_url": "https://www.youtube.com/",
+
+    "note_ascolto": "Ascoltare passeggiando lungo la Via Sacra."
+  },
+
+  "letteratura": {
+
+    "citazione": "«Le rovine parlano più degli edifici intatti.»",
+
+    "autore": "Johann Wolfgang von Goethe",
+
+    "opera": "Viaggio in Italia",
+
+    "anno": 1816,
+
+    "contesto": "Goethe descrive il Foro Romano come luogo in cui la memoria storica si manifesta attraverso i resti dell'antichità."
+  },
+
+  "atmosfera": {
+
+    "momento": "tarda mattina",
+
+    "luce": "calda e radente",
+
+    "suoni_ambiente": [
+
+      "voci dei visitatori",
+
+      "uccelli",
+
+      "vento tra le rovine"
+
+    ],
+
+    "temperatura_stimata": "23°C",
+
+    "affollamento": "moderato",
+
+    "consiglio_fotografico": "Fotografare l'Arco di Settimio Severo con il Campidoglio sullo sfondo.",
+
+    "emozione_target": "Memoria storica"
+  },
+
+  "arte_visiva": {
+
+    "stile_architettonico": "Architettura romana antica",
+
+    "architetti": [
+
+      "Diversi autori"
+
+    ],
+
+    "anno_costruzione": "VIII sec. a.C. - IV sec. d.C.",
+
+    "committente": "Repubblica e Impero Romano",
+
+    "descrizione": "Centro politico, religioso e civile dell'antica Roma."
+  }
+
+},
+
       "storia": "Nel Settecento molte aree del Foro erano ancora parzialmente interrate.",
 
       "curiosita": "Le incisioni di Vasi venivano acquistate dai viaggiatori del Grand Tour.",
@@ -243,6 +327,90 @@
 
       "commento_vasi": "«Il tempio rotondo mostra una perfetta armonia di proporzioni e di luce.»",
 
+      "esperienza_culturale": {
+
+  "musica": {
+
+    "movimento": "Adagio",
+
+    "brano_completo": "Stabat Mater",
+
+    "compositore": "Giovanni Battista Pergolesi",
+
+    "durata_sec": 500,
+
+    "tonalita": "Fa minore",
+
+    "organico": "Soprano, contralto e orchestra",
+
+    "anno_composizione": 1736,
+
+    "descrizione_musicale": "La musica accompagna la percezione della perfezione geometrica e della spiritualità del Pantheon.",
+
+    "spotify_url": "https://open.spotify.com/",
+
+    "youtube_url": "https://www.youtube.com/",
+
+    "note_ascolto": "Ascoltare sotto l'oculo centrale."
+  },
+
+  "letteratura": {
+
+    "citazione": "«Il Pantheon è il tempio meglio conservato dell'antichità.»",
+
+    "autore": "Stendhal",
+
+    "opera": "Passeggiate Romane",
+
+    "anno": 1829,
+
+    "contesto": "Il Pantheon rappresenta la continuità tra Roma antica e moderna."
+  },
+
+  "atmosfera": {
+
+    "momento": "mezzogiorno",
+
+    "luce": "verticale",
+
+    "suoni_ambiente": [
+
+      "silenzio",
+
+      "passi",
+
+      "eco"
+
+    ],
+
+    "temperatura_stimata": "22°C",
+
+    "affollamento": "elevato",
+
+    "consiglio_fotografico": "Scattare quando il fascio di luce attraversa l'oculo.",
+
+    "emozione_target": "Meraviglia"
+  },
+
+  "arte_visiva": {
+
+    "stile_architettonico": "Architettura romana imperiale",
+
+    "architetti": [
+
+      "Apollodoro di Damasco"
+
+    ],
+
+    "anno_costruzione": "118-125 d.C.",
+
+    "committente": "Imperatore Adriano",
+
+    "descrizione": "Capolavoro dell'ingegneria romana con la più grande cupola in calcestruzzo non armato del mondo."
+  }
+
+},
+
       "storia": "Il Pantheon fu trasformato in chiesa cristiana nel VII secolo.",
 
       "curiosita": "L’oculo centrale è l’unica fonte di luce naturale.",
@@ -288,6 +456,92 @@
       "descrizione_estesa": "La Fontana di Trevi è uno dei più celebri esempi di teatralità urbana barocca.",
 
       "commento_vasi": "«La fontana si presenta come spettacolo d’acque e pietre, ove l’arte supera la natura.»",
+
+      "esperienza_culturale": {
+
+  "musica": {
+
+    "movimento": "Allegro",
+
+    "brano_completo": "Le quattro stagioni - Estate",
+
+    "compositore": "Antonio Vivaldi",
+
+    "durata_sec": 620,
+
+    "tonalita": "Sol minore",
+
+    "organico": "Violino solista e orchestra",
+
+    "anno_composizione": 1725,
+
+    "descrizione_musicale": "L'energia della musica richiama il movimento continuo dell'acqua e la teatralità barocca.",
+
+    "spotify_url": "https://open.spotify.com/",
+
+    "youtube_url": "https://www.youtube.com/",
+
+    "note_ascolto": "Ascoltare osservando il flusso dell'acqua."
+  },
+
+  "letteratura": {
+
+    "citazione": "«Roma è una città che non finisce mai di stupire.»",
+
+    "autore": "Henry James",
+
+    "opera": "Italian Hours",
+
+    "anno": 1909,
+
+    "contesto": "La Fontana di Trevi rappresenta uno dei simboli universali della città."
+  },
+
+  "atmosfera": {
+
+    "momento": "tramonto",
+
+    "luce": "dorata",
+
+    "suoni_ambiente": [
+
+      "acqua",
+
+      "voci",
+
+      "musicisti di strada"
+
+    ],
+
+    "temperatura_stimata": "24°C",
+
+    "affollamento": "molto elevato",
+
+    "consiglio_fotografico": "Scattare poco prima del tramonto dal lato opposto della piazza.",
+
+    "emozione_target": "Meraviglia e stupore"
+  },
+
+  "arte_visiva": {
+
+    "stile_architettonico": "Barocco",
+
+    "architetti": [
+
+      "Nicola Salvi",
+
+      "Giuseppe Pannini"
+
+    ],
+
+    "anno_costruzione": "1732-1762",
+
+    "committente": "Papa Clemente XII",
+
+    "descrizione": "La più celebre fontana monumentale di Roma, esempio di teatralità urbana barocca."
+  }
+
+},
 
       "storia": "La Fontana di Trevi segna il terminale dell’antico Acquedotto Vergine.",
 
