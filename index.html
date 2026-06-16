@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Il Gran Tour di Roma</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
 *{
   margin:0;
@@ -694,7 +696,13 @@ transition:0.2s;
 
     </div>
 
-    <div id="tappe-container"></div>
+    <h2 style="margin-bottom:20px;">
+🗺️ Mappa del percorso
+</h2>
+
+<div id="map"></div>
+
+<div id="tappe-container"></div>
 
     <div class="liste-finali-container">
 
@@ -766,7 +774,60 @@ fetch("data.json")
       opereList.appendChild(li);
     });
 
-    /* MAPPA DISABILITATA PER COMPATIBILITÀ TEAMS */
+    /* MAPPA */
+
+const map = L.map("map").setView(
+[41.8985,12.4765],
+13
+);
+
+L.tileLayer(
+'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+{
+attribution:'© OpenStreetMap contributors'
+}
+).addTo(map);
+
+
+/* MARKER */
+
+itinerario.tappe.forEach(tappa=>{
+
+L.marker(tappa.coordinate)
+
+.addTo(map)
+
+.bindPopup(
+
+`<b>${tappa.numero}. ${tappa.nome}</b>
+
+<br>
+
+${tappa.descrizione_breve}`
+
+);
+
+});
+
+
+/* LINEA DEL PERCORSO */
+
+const percorso = itinerario.tappe.map(
+t => t.coordinate
+);
+
+L.polyline(
+percorso,
+{
+color:"#6f4e37",
+
+weight:5,
+
+opacity:0.8
+}
+)
+
+.addTo(map);
 
     /* TIMELINE & TAPPE CONTAINERS */
     const timeline = document.getElementById("timeline-list");
